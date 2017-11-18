@@ -1,0 +1,9 @@
+[Unit]
+Description=rsync and update the archive repository
+
+[Timer]
+OnCalendar=daily
+Persistent=true     
+ 
+[Install]
+WantedBy=timers.target
