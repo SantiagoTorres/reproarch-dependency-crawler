@@ -77,6 +77,7 @@ rsync_cmd \
 	--exclude='/other' \
 	--exclude='/sources' \
 	--exclude='/iso' \
+	--exclude='/archive' \
 	"${source_url}" \
 	"${target}"
 
